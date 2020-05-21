@@ -63,12 +63,13 @@ dd {
       }
     }
 
-    .menu_name {
-      cursor: pointer;
-
-      &:hover {
+    &:hover {
+      .menu_name {
         color: #2361FF;
       }
+    }
+    .menu_name {
+      cursor: pointer;
     }
 
     .menu_badge {
